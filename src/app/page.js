@@ -1,8 +1,13 @@
-import Image from "next/image";
+
 import TallyForm from "../../components/tallyform";
+import LatestDocLink from '@/components/LatestDocLink';
+
 
 export default function Home() {
   return (
-    <TallyForm />
+    <div>
+      <TallyForm />
+      <LatestDocLink />
+    </div>
   );
 }
